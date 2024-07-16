@@ -2,7 +2,7 @@ from flask import Flask, request
 import requests
 
 app = Flask(__name__)
-TELEGRAM_API_URL = f'https://api.telegram.org/bot<6890315927:AAG8WeABGQlW9ot6rjC2qUBq7YGzpC4zTC8>/'
+TELEGRAM_API_URL = f'https://api.telegram.org/bot6890315927:AAG8WeABGQlW9ot6rjC2qUBq7YGzpC4zTC8/'
 
 def send_message(chat_id, text):
     url = TELEGRAM_API_URL + 'sendMessage'
